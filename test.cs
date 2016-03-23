@@ -27,7 +27,12 @@ public class parralaxManager : MonoBehaviour {
 
 	[Header("Configuration of parralax Manager")]
 	[SerializeField]
-	[Tooltip("Camera that the parralax will follow.event if the camera don't move, set one")]
+	[Tooltip("Camera that the parralax will follow.event if the camera 
+
+
+
+
+		don't move, set one")]
 	private Camera cameraToFollow = null;
 	[SerializeField]
 	[Tooltip("independante speed. This speed willaffect all the parralax plan ")]
