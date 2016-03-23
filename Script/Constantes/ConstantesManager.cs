@@ -4,7 +4,8 @@ using System.Collections;
 //Contient toutes les constantes liées au GameDesign
 public class ConstantesManager {
 	//Fragment
-	public static float FRAGMENT_KILL_Y_X = -105f;
+	public static float FRAGMENT_KILL_Y_Z = -105f;
+
 
 	//-----------------------------------------------COST
 
