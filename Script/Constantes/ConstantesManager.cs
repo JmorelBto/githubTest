@@ -6,6 +6,7 @@ public class ConstantesManager {
 	//Fragment
 	public static float FRAGMENT_KILL_Y_Z = -105f;
 
+
 	//-----------------------------------------------COST
 
 	public static int PRICE_REPAIR =5;
