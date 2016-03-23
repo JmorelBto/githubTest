@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public abstract class Ship : MonoBehaviour  {
+public abstract class Chips : MonoBehaviour  {
 
 	public Enum_ShipType _TYPE;
 	public GameObject _city;

@@ -4,7 +4,9 @@ using System.Collections;
 public enum Enum_ShipType {
 	Hunter,
 	Frigate,
-	Cruiser
+	Cruiser,
+	Enterprise,
+	DeathStar
 }
 
 

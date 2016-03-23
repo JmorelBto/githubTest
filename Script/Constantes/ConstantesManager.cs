@@ -13,7 +13,7 @@ public class ConstantesManager {
 	public static float VARIATION_PRICE_TRUCK_PERCENT = 20f / 100f;
 	public static int PRICE_STANDARD_1 =500;
 	public static int PRICE_STANDARD_2 =600;
-	public static int PRICE_STANDARD_3 =700;
+	public static int PRICE_STANDARD_31111 =700;
 	public static int PRICE_DISIN_1 =700;
 	public static int PRICE_DISIN_2 =800;
 	public static int PRICE_DISIN_3 =900;
@@ -33,16 +33,6 @@ public class ConstantesManager {
 	public static float ERROR_MARGE_POP = 20f;
 
 
-	//Vague Var
-
-	public static int FP_INITIAL = 4;
-	public static int NB_PRECALCULATE_VAGUE = 3;
-	public static float MIN_PERCENT_HUNTER = 20/100;
-	public static float MAX_PERCENT_CRUISER = 50/100;
-
-	public static int COST_HUNTER = 1;
-	public static int COST_FRIGATE = 5;
-	public static int COST_CRUISER = 20;
 
 
 
@@ -99,7 +89,7 @@ public class ConstantesManager {
 	public static float TIME_MIN_IN_SHOOT_STATE = 4f;//sec
 
 	//City var
-	public static int CITY_PV_MAX = 10000;
+	public static int CITY_PV_MAX = 1000000000000000; // MOAR
 	public static Vector3 CITY_LOCAL_POSITION = new Vector3(100,230,0);
 
 	//Truck var
@@ -150,6 +140,7 @@ public class ConstantesManager {
 	public static int STANDARD_LVL2_SHOOT_DAMAGE = 30;
 	
 	//Standard lvl 3 var
+	//miouais mouais
 	public static int STANDARD_LVL3_PV_MAX = 1000; //shooting/sec
 	public static float STANDARD_LVL3_RATE_OF_FIRE = 3f; //shooting/sec
 	public static int STANDARD_LVL3_SHOOT_DAMAGE = 50;

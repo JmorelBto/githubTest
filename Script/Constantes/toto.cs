@@ -7,6 +7,7 @@ public class toto : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		printf("BEST SCRIPT EVER");
 	
 	}
 	

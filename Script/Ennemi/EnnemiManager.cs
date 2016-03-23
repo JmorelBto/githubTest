@@ -21,7 +21,7 @@ public class EnnemiManager : MonoBehaviour {
 	public int _vagueNumberNow;
 
 	void Start () 
-	{
+	{//PIOUPIOU
 		_containerLineAttack = (GameObject)Instantiate (_prefabContainerLineAttack, Vector3.zero, Quaternion.identity);
 	
 		_ligneAttackManager = _containerLineAttack.GetComponent<LineAttackManager> ();
@@ -80,18 +80,7 @@ public class EnnemiManager : MonoBehaviour {
 	}
 
 	private void dispatchVague(Vague vague){
-
-				int h1 = 0;
-				int f1 = 0;
-				int c1 = 0;
-
-				int h2 = 0;
-				int f2 = 0;
-				int c2 = 0;
-
-				int h3 = 0;
-				int f3 = 0;
-				int c3 = 0;
+//les init c'est le mal
 
 		//Debug.Log (vague._hunterNumber);
 				int modH = vague._hunterNumber % 4;
@@ -113,7 +102,7 @@ public class EnnemiManager : MonoBehaviour {
 		_lineAttack2.setShips (h2, f2, c2);
 		_lineAttack3.setShips (h3, f3, c3);
 
-		_fpNow=vague._FP;
+		_fpNow=vague._FP*toto;
 		_vagueNumberNow=vague._number;
 
 		}
