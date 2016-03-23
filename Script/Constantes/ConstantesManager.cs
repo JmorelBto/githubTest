@@ -103,6 +103,8 @@ public class ConstantesManager {
 	public static int CITY_PV_MAX = 10000;
 	public static Vector3 CITY_LOCAL_POSITION = new Vector3(100,230,0);
 
+	ROOOMMMMAAINNN
+
 	//Truck var
 	public static float TRUCK_SPEED_BASE = 20;//px/sec
 	public static int TRUCK_QUANTITE_TRANSPADABLE_BASE = 500;
