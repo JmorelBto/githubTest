@@ -17,7 +17,7 @@ public class ParralaxPlanConfiguration : System.Object
 
 	public float yOffset;
 
-	public float pasDeConflit;
+	public int pasDeConflit;
 }
 
 public class parralaxManager : MonoBehaviour {
