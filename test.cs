@@ -16,6 +16,8 @@ public class ParralaxPlanConfiguration : System.Object
     public float relativeSpeed;
 
 	public float yOffset;
+
+	public float pasDeConflit;
 }
 
 public class parralaxManager : MonoBehaviour {
