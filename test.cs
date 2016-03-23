@@ -13,7 +13,7 @@ public class ParralaxPlanConfiguration : System.Object
 	public parralaxAssetGenerator generatorScript;
 	public float lowSpaceBetweenAsset;
 	public float hightSpaceBetweenAsset;
-    public float relativeSpeed;
+    public float relativeSpeedWITH TEST REVIEW;
 
 	public float yOffset;
 }
